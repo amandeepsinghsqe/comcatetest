@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.ComCate.TestCases.CCP">
+        <methods>
+          <include name="TC_CCP_59"/>
+          <include name="TC_CCP_58"/>
+          <include name="TC_CCP_57"/>
+          <include name="tearDown"/>
+          <include name="TC_CCP_55"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="TC_CCP_61"/>
+          <include name="TC_CCP_60"/>
+        </methods>
+      </class> <!-- com.ComCate.TestCases.CCP -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
